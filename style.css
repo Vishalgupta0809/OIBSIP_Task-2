@@ -1,0 +1,189 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 10%;
+    width: 100%;
+    z-index: -1
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    font-size: 20px;
+}
+.navbar ul li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+
+}
+.navbar ul li a:hover{
+    color: blue;
+}
+
+#about{
+    display:flex;
+    flex-direction: column;
+    height: 373px;
+}
+
+#about h1{
+    margin: 27px 31px;
+    font-size: 30px;
+}
+.about{
+    display:flex;
+}
+.about img{
+    width: 362px;
+    height: 222px;
+    padding: -1px 83px;
+    border: 2px solid black
+}
+
+.cv-btn{
+    display: inline-block;
+    margin-left: 57px;
+    border: 2px solid orange;
+    border-radius: 33px;
+    height: 16px;
+    width: 17%;
+    padding: 12px;
+    background: orange;
+}
+
+.cv-btn:hover{
+    background-color: black;
+
+}
+
+.name h2{
+        padding: 10px;
+        font-size: 30px;
+      
+    margin: -10px 45px;
+
+}
+#certificates{
+    display: flex;
+    flex-direction: column;
+   
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gallery img{
+    width: 396px;
+    height: 227px;
+    padding:10px;
+    margin: 10px;
+}
+.gallery div img{
+    height: 407px; 
+    width: 341px;
+}
+.gallery img:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+/*education*/
+#education{
+    display:flex;
+    flex-direction: column;
+}
+
+#education h1{
+    font-size: 25px;
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+}
+
+.box{
+    height:147px;
+    width: 524px;
+    background-color: rgba(215, 250, 232, 0.829);
+    border-radius: 20px;
+    margin: 8px;
+    padding: 25px;
+}
+.box h2{
+    color: rgba(192, 74, 44, 0.877);
+    margin-bottom: 40px;
+}
+.box p{
+    font-size: 1.1rem;
+}
+
+/*contact*/
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact h1{
+    margin: 22px;
+    font-size: 34px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.input{
+    padding: 15px 20px;
+    margin: 10px 6px;
+    width: 96%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+#message{
+    margin:15px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 112px;
+    margin: auto;
+    background-color: gray;
+    font-size: 19px;
+    border: 2px solid black
+}
+.button:hover{
+    background-color: blue;
+    text-decoration: underline;
+}
+
